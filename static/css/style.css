@@ -6176,6 +6176,8 @@ header .sitename-wrapper {
       background: #cd853f; }
     header .sitename-wrapper .menu-wrapper button:hover {
       background-color: rgba(205, 133, 63, 0.9); }
+    header .sitename-wrapper .menu-wrapper a {
+      color: #fff; }
   header .sitename-wrapper .ds-menu-wrapper ul.list-inline {
     font-family: Open Sans, sans-serif;
     float: right;

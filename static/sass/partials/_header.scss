@@ -78,6 +78,9 @@ header {
        button:hover {
         background-color: rgba(205, 133, 63, 0.9);
       }
+      a{
+        color: $primary-bg;
+      }
     }
 
     .ds-menu-wrapper {
