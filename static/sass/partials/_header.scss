@@ -207,7 +207,7 @@ header {
             a {
               font-family: $text-font;
               color:$tertiary-color;
-              font-size: 19px;
+              font-size: pxtoem(19px);
             }
             a:hover {
               text-decoration: none;

@@ -1,72 +1,76 @@
+//SASS file for footer-top and footer-bottom//
 
-.map {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-  .map iframe {
-    padding-right: 0px;
-  }
-.footer-top .row {
+.footer-top {
   background: $footer-top-bg;
-  margin-top: 40px;
-  padding-right: 0px;
+  margin-bottom: -6px;
+  font-family: $text-font;
 }
-.col-12 {
-  padding-right: 0px;
-  padding-left: 0px;
-}
-.col-lg-3 {
-  margin-top: 60px;
-  color: $primary-bg;
-}
-  a {
-    text-decoration: underline;
+
+.cebu_title {
+  h3 {
+    font-weight: bold;
     color: $primary-bg;
-  }
-  a:hover {
-    color: $primary-bg;
+    padding-bottom: 10px;
+    font-size: pxtoem(23px);
   }
   p {
-    font-size: 12px;
-    font-family: $text-font;
+    font-size: pxtoem(12px);
+    color: $primary-bg;
     text-align: left;
+    margin: 0 0 15px;
   }
-  .drupalcebu_header {
-    padding-left: 20px;
+  a {
+    color: $primary-bg;
+    text-decoration: underline;
   }
-    .button-link a {
-      border: 1px solid $primary-bg;
-      border-radius: 5px;
-      padding: 10px 5px;
+  .button-link {
+    margin-top: 20px;
+
+    a {
+      color: $primary-bg;
       text-decoration: none;
+      border: 1px solid $primary-bg;
+      padding: 10px 5px;
+      border-radius: 5px;
       text-transform: uppercase;
       font-weight: bold;
     }
-    .button-link a:hover {
-      background: $primary-bg;
+    a:hover {
+      background-color: $primary-bg;
       color: $footer-top-bg;
     }
-  .drupaltwitter_header {
-    margin-right: 20px;
-    padding-left: 0px;
   }
-.col-lg-6 {
-  width: 100%;
-  margin-bottom: -6px;
-  padding-right: 0px;
 }
+
+.twitter_title {
+  width: 100%;
+
   h3 {
     font-weight: bold;
-    font-size: 19px;
-    margin-bottom: 20px;
+    color: $primary-bg;
+    padding-bottom: 10px;
+    font-size: pxtoem(23px);
   }
+  p {
+    font-size: pxtoem(12px);
+    color: $primary-bg;
+    text-align: left;
+    margin: 0 0 15px;
+  }
+  a {
+    color: $primary-bg;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
 .footer-bottom {
+
   .row {
     background: $footer-bottom-bg;
     text-align: center;
-
     p {
-    font-size: 12px;
+    font-size: pxtoem(12px);
     line-height: 1.5;
     font-weight: 200;
     margin: 0 0 10px;
@@ -83,45 +87,25 @@
     }
   }
 }
-@media (max-width: 1024px) {
-  .map iframe {
-    width: 100%;
-  }
-}
-@media (min-width: 1024px) {
-  .map iframe {
-    width: 100%;
-  }
-}
-@media (max-width: 992px) {
-  .drupalcebu_header {
-    margin-top: -30px;
-    padding-left: 100px;
-  }
-  .drupaltwitter_header {
-    margin-top: -40px;
-    margin-bottom: 40px;
-    padding-left: 100px;
-  }
-}
-@media (max-width: 768px) {
-  .drupaltwitter_header {
-    margin-top: -40px;
-    margin-bottom: 40px;
-    padding-left: 30px;
-  }
-  .drupalcebu_header {
-    padding-left: 30px;
+@media (min-width: 576px) {
+  .col-lg-3 {
+    padding-left: 0px;
+
+    .twitter_title {
+      padding-top: 50px;
+      padding-bottom: 60px;
+    }
   }
 }
 
-@media (max-width: 480px) {
-  .drupaltwitter_header {
-    margin-top: -40px;
-    margin-bottom: 40px;
-    padding-left: 5px;
+@media (min-width: 768px) {
+  .map iframe {
+    height: 350px;
   }
-  .drupalcebu_header {
-    padding-left: 5px;
+}
+
+@media (min-width: 992px) {
+  .map iframe {
+    height: 450px;
   }
 }
