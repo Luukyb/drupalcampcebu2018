@@ -52,57 +52,56 @@ header {
         }
       }
 
-      ul.menu-list {
-        list-style-type: none;
-        display: block;
-        font-size: 25px;
-        text-align: left;
-        padding: 0px;
-        margin-top: 80px;
-        margin-bottom: 0;
+      ul.list-group {
         width: 100%;
-        text-transform: capitalize;
-        a {
-          text-decoration: none;
-          color: $primary-bg;
-          font-family: $text-font;
-          display: block;
-          padding: 7px;
-          padding-left: 40px;
-          padding-bottom: 10px;
-        }
-
-        a:hover {
-          color: $primary-bg;
-        }
-
+        font-size: 20px;
         li {
           border-bottom: 1px solid rgba(255, 255, 255,0.2);
         }
-
         li:hover {
           background-color: rgba(255, 255, 255,0.2);
         } 
+        a {
+          color: $primary-bg;
+          display: block;
+          font-family: $text-font;
+        }
       }
 
-      .register-button {
-        text-transform: capitalize;
-        a {
-          font-size: 25px;
-          font-family: $text-font;
-          color: $primary-bg;
-          text-decoration: none;
-          border: 1px solid $primary-bg;
-          background-color: $secondary-color;
-          padding: 8px;
-          padding-right: 60px;
-          padding-left: 60px;
-          border-color: $secondary-color;
-        }
+      .btn {
+        border-radius: 0;
+        margin-top: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+        background: $secondary-color; 
+      }
+       button:hover {
+        background-color: rgba(205, 133, 63, 0.9);
+      }
+    }
 
+    .ds-menu-wrapper {
+      ul.list-inline {
+        font-family: $text-font;
+        float: right;
+        padding-top: 17px;
+        li.list-inline-item {
+          padding-right: 15px;
+          button {
+            color: $secondary-color;
+            border: 1px solid $secondary-color; 
+            padding: 10px;
+          }
+          button:hover {
+            background-color: $primary-bg;
+            color: rgba(205, 133, 63, 0.8);
+          }
+        }
+        a {
+          color: $tertiary-color;
+        }
         a:hover {
-          color:$primary-bg;
-          background-color: $submit-btn-hover;
+          color: $secondary-color;
         }
       }
     }

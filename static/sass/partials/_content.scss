@@ -15,10 +15,19 @@
       text-align: center;
     }
 
-   .link-btn {
+    .sponsor-btn{
       text-align: center;
-      margin: 70px;
-      margin-bottom: 95px;
+      margin: 50px auto;
+      .btn{
+        text-transform: uppercase;
+        color: $secondary-color;
+        border: 1px solid $secondary-color;
+        font-weight: bolder;
+      }
+      button:hover{
+        background-color:$secondary-color;
+        color: $primary-bg;
+      }
     }
 
     h4 {

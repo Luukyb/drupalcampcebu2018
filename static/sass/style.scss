@@ -1,3 +1,9 @@
+// Override variables.
+@import "partials/override-variables";
+
+// Bootstrap default variables.
+@import "node_modules/bootstrap/scss/bootstrap";
+
 @import "partials/base";
 @import "partials/global";
 @import "partials/form";
