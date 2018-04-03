@@ -6107,9 +6107,12 @@ form {
       color: #cd853f;
       border: 1px solid #cd853f;
       font-weight: bolder; }
+      .content-wrapper .sponsor-region .sponsor-btn .btn a {
+        color: #cd853f; }
+      .content-wrapper .sponsor-region .sponsor-btn .btn a:hover {
+        color: rgba(205, 133, 63, 0.8); }
     .content-wrapper .sponsor-region .sponsor-btn button:hover {
-      background-color: #cd853f;
-      color: #fff; }
+      background-color: transparent; }
   .content-wrapper .sponsor-region h4 {
     text-align: center; }
   .content-wrapper .sponsor-region .sponsors-image {
@@ -6188,9 +6191,12 @@ header .sitename-wrapper {
         color: #cd853f;
         border: 1px solid #cd853f;
         padding: 10px; }
+        header .sitename-wrapper .ds-menu-wrapper ul.list-inline li.list-inline-item button a {
+          color: #cd853f; }
+        header .sitename-wrapper .ds-menu-wrapper ul.list-inline li.list-inline-item button a:hover {
+          color: rgba(205, 133, 63, 0.8); }
       header .sitename-wrapper .ds-menu-wrapper ul.list-inline li.list-inline-item button:hover {
-        background-color: #fff;
-        color: rgba(205, 133, 63, 0.8); }
+        background-color: #fff; }
     header .sitename-wrapper .ds-menu-wrapper ul.list-inline a {
       color: #323648; }
     header .sitename-wrapper .ds-menu-wrapper ul.list-inline a:hover {

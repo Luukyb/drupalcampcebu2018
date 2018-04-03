@@ -15,18 +15,23 @@
       text-align: center;
     }
 
-    .sponsor-btn{
+    .sponsor-btn {
       text-align: center;
       margin: 50px auto;
-      .btn{
+      .btn {
         text-transform: uppercase;
         color: $secondary-color;
         border: 1px solid $secondary-color;
         font-weight: bolder;
+        a {
+        color: $secondary-color;
+        }
+        a:hover {
+        color: rgba(205, 133, 63, 0.8);
+        }
       }
-      button:hover{
-        background-color:$secondary-color;
-        color: $primary-bg;
+      button:hover {
+        background-color: transparent;
       }
     }
 

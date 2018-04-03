@@ -94,10 +94,15 @@ header {
             color: $secondary-color;
             border: 1px solid $secondary-color; 
             padding: 10px;
+            a {
+              color: $secondary-color;
+            }
+            a:hover {
+              color:  rgba(205, 133, 63, 0.8);
+            }
           }
           button:hover {
             background-color: $primary-bg;
-            color: rgba(205, 133, 63, 0.8);
           }
         }
         a {
