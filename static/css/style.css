@@ -88,8 +88,8 @@ form {
 
 .footer-top {
   background: #51a3d6;
-  margin-bottom: -6px;
-  font-family: Open Sans, sans-serif; }
+  font-family: Open Sans, sans-serif;
+  margin-bottom: -6px; }
 
 .cebu_title h3 {
   font-weight: bold;
@@ -168,7 +168,7 @@ form {
 
 @media (min-width: 992px) {
   .map iframe {
-    height: 450px; } }
+    height: 475px; } }
 
 header .sitename-wrapper {
   border-bottom: 0.2px solid #e6e6fa; }
