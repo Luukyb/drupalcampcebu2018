@@ -6119,6 +6119,90 @@ form {
     text-align: center;
     margin-bottom: 50px; }
 
+.footer-top {
+  background: #51a3d6;
+  font-family: Open Sans, sans-serif;
+  margin-bottom: -6px; }
+
+.cebu_title h3 {
+  font-weight: bold;
+  color: #fff;
+  padding-bottom: 10px;
+  font-size: 1.4375em; }
+
+.cebu_title p {
+  font-size: 0.75em;
+  color: #fff;
+  text-align: left;
+  margin: 0 0 15px; }
+
+.cebu_title a {
+  color: #fff;
+  text-decoration: underline; }
+
+.cebu_title .button-link {
+  margin-top: 20px; }
+  .cebu_title .button-link a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .cebu_title .button-link a:hover {
+    background-color: #fff;
+    color: #51a3d6; }
+
+.twitter_title {
+  width: 100%; }
+  .twitter_title h3 {
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 10px;
+    font-size: 1.4375em; }
+  .twitter_title p {
+    font-size: 0.75em;
+    color: #fff;
+    text-align: left;
+    margin: 0 0 15px; }
+  .twitter_title a {
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer; }
+
+.footer-bottom .row {
+  background: #0f457b;
+  text-align: center; }
+  .footer-bottom .row p {
+    font-size: 0.75em;
+    line-height: 1.5;
+    font-weight: 200;
+    margin: 0 0 10px;
+    text-align: center;
+    color: #fff; }
+  .footer-bottom .row p.copyright {
+    margin-bottom: 40px; }
+  .footer-bottom .row img {
+    width: 70px;
+    margin-bottom: 30px;
+    margin-top: 40px; }
+
+@media (min-width: 576px) {
+  .col-lg-3 {
+    padding-left: 0px; }
+    .col-lg-3 .twitter_title {
+      padding-top: 50px;
+      padding-bottom: 60px; } }
+
+@media (min-width: 768px) {
+  .map iframe {
+    height: 350px; } }
+
+@media (min-width: 992px) {
+  .map iframe {
+    height: 475px; } }
+
 header .sitename-wrapper {
   border-bottom: 0.2px solid #e6e6fa; }
   header .sitename-wrapper .desktop-menu {
@@ -6263,7 +6347,7 @@ header .description {
         header .sitename-wrapper .desktop-menu ul.menu-list li a {
           font-family: Open Sans, sans-serif;
           color: #323648;
-          font-size: 19px; }
+          font-size: 1.1875em; }
         header .sitename-wrapper .desktop-menu ul.menu-list li a:hover {
           text-decoration: none;
           color: #cd853f; }

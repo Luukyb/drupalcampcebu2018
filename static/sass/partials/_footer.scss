@@ -1,0 +1,111 @@
+//SASS file for footer-top and footer-bottom.
+
+.footer-top {
+  background: $footer-top-bg;
+  font-family: $text-font;
+  margin-bottom: -6px;
+}
+
+.cebu_title {
+  h3 {
+    font-weight: bold;
+    color: $primary-bg;
+    padding-bottom: 10px;
+    font-size: pxtoem(23px);
+  }
+  p {
+    font-size: pxtoem(12px);
+    color: $primary-bg;
+    text-align: left;
+    margin: 0 0 15px;
+  }
+  a {
+    color: $primary-bg;
+    text-decoration: underline;
+  }
+  .button-link {
+    margin-top: 20px;
+
+    a {
+      color: $primary-bg;
+      text-decoration: none;
+      border: 1px solid $primary-bg;
+      padding: 10px 5px;
+      border-radius: 5px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    a:hover {
+      background-color: $primary-bg;
+      color: $footer-top-bg;
+    }
+  }
+}
+
+.twitter_title {
+  width: 100%;
+
+  h3 {
+    font-weight: bold;
+    color: $primary-bg;
+    padding-bottom: 10px;
+    font-size: pxtoem(23px);
+  }
+  p {
+    font-size: pxtoem(12px);
+    color: $primary-bg;
+    text-align: left;
+    margin: 0 0 15px;
+  }
+  a {
+    color: $primary-bg;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.footer-bottom {
+  .row {
+    background: $footer-bottom-bg;
+    text-align: center;
+    p {
+      font-size: pxtoem(12px);
+      line-height: 1.5;
+      font-weight: 200;
+      margin: 0 0 10px;
+      text-align: center;
+      color: $primary-bg;
+    }
+    p.copyright {
+      margin-bottom: 40px;
+    }
+    img {
+      width: 70px;
+      margin-bottom: 30px;
+      margin-top: 40px;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .col-lg-3 {
+    padding-left: 0px;
+
+    .twitter_title {
+      padding-top: 50px;
+      padding-bottom: 60px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .map iframe {
+    height: 350px;
+  }
+}
+
+@media (min-width: 992px) {
+  .map iframe {
+    height: 475px;
+  }
+}
