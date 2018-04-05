@@ -15,10 +15,24 @@
       text-align: center;
     }
 
-   .link-btn {
+    .sponsor-btn {
       text-align: center;
-      margin: 70px auto;
-      margin-bottom: 95px;
+      margin: 50px auto;
+      .btn {
+        text-transform: uppercase;
+        color: $secondary-color;
+        border: 1px solid $secondary-color;
+        font-weight: bolder;
+        a {
+        color: $secondary-color;
+        }
+        a:hover {
+        color: rgba(205, 133, 63, 0.8);
+        }
+      }
+      button:hover {
+        background-color: transparent;
+      }
     }
 
     h4 {

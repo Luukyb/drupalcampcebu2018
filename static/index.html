@@ -4,7 +4,6 @@
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>Drupalcamp Cebu 2018</title>
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
    <link rel="stylesheet" href="css/style.css">
    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans" rel="stylesheet">
@@ -26,21 +25,23 @@
               <span class="hamburger" onclick="openNav()">&#9776;</span>
               <div id="side-navigation" class="menu-wrapper" >
                 <div class="close-button col-2 col-sm-3 col-md-2"><a href="javascript:void(0)" onclick="closeNav()">&times;</a></div>
-                  <ul class="menu-list col-12 col-md-12">
-                    <li class="menu-margin-top"><a href="#">venue</a></li>
-                    <li><a href="#">sponsors</a></li>
-                    <li><a href="#">pricing</a></li><br><br>
-                  </ul>
-                <div class="register-button col-12"><a href="#">register</a></div>
+                <ul class="list-group" col-12 col-md-12">
+                  <li class="list-group-item"><a href="#">Venue</a></li>
+                  <li class="list-group-item"><a href="#">Sponsors</a></li>
+                  <li class="list-group-item"><a href="#">Pricing</a></li>
+                </ul>
+                <button type="button" class="btn btn-primary"><a href="#">Register</a></button>
               </div>
             </div>
             <div class="desktop-menu col-md-7">
               <div class="ds-menu-wrapper" >
-                <ul class="menu-list">
-                  <li><a href="#">venue</a></li>
-                  <li><a href="#">sponsors</a></li>
-                  <li><a href="#">pricing</a></li>
-                  <li class="register-button"><a href="#">register</a></li>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#">Venue</a></li>
+                    <li class="list-inline-item"><a href="#">Sponsors</a></li>
+                    <li class="list-inline-item"><a href="#">Pricing</a></li>
+                    <li class="list-inline-item">
+                      <button type="button" class="btn btn-outline-primary"><a href="#">Register</a></button>
+                    </li>
                 </ul>
               </div>
             </div>
@@ -60,31 +61,33 @@
             <form>
               <div class="form-wrapper col-12">
                 <input type="text" placeholder="Email address" class="input-text col-7">&emsp;
-                <input type="submit" value="Submit" class="submit-btn col-4">
+                <button type="button" class="btn btn-primary col-4">Submit</button>
               </div>
             </form>
           </div>
         </div>
       </div>
     </header>
-    <section class ="content">
-      <div class = "content-wrapper">
+    <section class="content">
+      <div class="content-wrapper">
         <div class="container">
           <div class="row">
-            <div class = "sponsor-region col-lg-12">
+            <div class="sponsor-region col-lg-12">
               <h2>Sponsors</h2>
               <p>Your contribution will help lower ticket prices for attendees, and as a sponsor, there is something in it for you</p>
-              <div class = "link-btn">
-                <a href="#">Sponsor now</a>
+              <div class="sponsor-btn">
+                <button type="button" class="btn btn-outline-primary"><a href="#">Sponsor Now</a></button>
               </div>
               <h4>Gold Sponsors</h4>
               <div class ="sponsors-image">
-                <img srcset="images/Promet_Logo-320w.png 320w,
-                             images/Promet_Logo-350w.png 350w"
-                     sizes="(max-width: 320px) 290px,
-                            350px"
-                     src="images/Promet_Logo-350w.png"
-                     alt="Promet Source logo.">
+                <a href="https://www.prometsource.com/">
+                  <img srcset="images/Promet_Logo-320w.png 320w,
+                               images/Promet_Logo-350w.png 350w"
+                       sizes="(max-width: 320px) 290px,
+                              350px"
+                       src="images/Promet_Logo-350w.png"
+                       alt="Promet Source logo.">
+                </a>
               </div>
             </div>
           </div>
