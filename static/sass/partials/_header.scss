@@ -82,7 +82,7 @@ header {
 
         li:hover {
           background-color: rgba(255, 255, 255,0.2);
-        } 
+        }
       }
 
       .register-button {
@@ -121,12 +121,12 @@ header {
     margin: auto;
     margin-top: 50px;
     width:353px;
-    height:530px;  
+    height:530px;
     background:url("../images/Official_logo.jpg");
     @include image-2x("../images/Official_logo2x.jpg", 353px, 530px);
   }
 
-  .description {  
+  .description {
     margin-top: 40px;
   }
 }
@@ -207,7 +207,7 @@ header {
             a {
               font-family: $text-font;
               color:$tertiary-color;
-              font-size: 19px;  
+              font-size: pxtoem(19px);
             }
             a:hover {
               text-decoration: none;
