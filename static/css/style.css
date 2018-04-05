@@ -6124,6 +6124,9 @@ form {
   font-family: Open Sans, sans-serif;
   margin-bottom: -6px; }
 
+.map iframe {
+  height: 15.2rem; }
+
 .cebu_title h3 {
   font-weight: bold;
   color: #fff;
@@ -6195,13 +6198,17 @@ form {
       padding-top: 50px;
       padding-bottom: 60px; } }
 
+@media (min-width: 640px) {
+  .map iframe {
+    height: 20.2rem; } }
+
 @media (min-width: 768px) {
   .map iframe {
-    height: 350px; } }
+    height: 25.2rem; } }
 
 @media (min-width: 992px) {
   .map iframe {
-    height: 475px; } }
+    height: 33.2rem; } }
 
 header .sitename-wrapper {
   border-bottom: 0.2px solid #e6e6fa; }
