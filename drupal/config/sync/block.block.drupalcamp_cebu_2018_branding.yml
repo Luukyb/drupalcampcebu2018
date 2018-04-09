@@ -1,15 +1,15 @@
-uuid: c5a737a5-45fc-4a2d-b868-7a052e9bbe28
+uuid: d3130e7d-16bf-4e29-abe4-f1050778ff9f
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - stark
+    - drupalcamp_cebu_2018
 _core:
   default_config_hash: fRKXNB91UxDvEMkzCR8ZBsawfC6Fqbme2gtobei3gu4
-id: stark_branding
-theme: stark
+id: drupalcamp_cebu_2018_branding
+theme: drupalcamp_cebu_2018
 region: header
 weight: 0
 provider: null

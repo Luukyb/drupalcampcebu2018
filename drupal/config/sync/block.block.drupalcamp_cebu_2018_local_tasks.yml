@@ -1,13 +1,13 @@
-uuid: 3d919a8f-4adf-4860-9535-6ce19ade540b
+uuid: 0390d34b-7c4d-41d4-adbb-9aacbffd7948
 langcode: en
 status: true
 dependencies:
   theme:
-    - stark
+    - drupalcamp_cebu_2018
 _core:
   default_config_hash: c-06bbElRY5sKmglk74ppgTW93Et4-EJFyNiUZMb8JY
-id: stark_local_tasks
-theme: stark
+id: drupalcamp_cebu_2018_local_tasks
+theme: drupalcamp_cebu_2018
 region: content
 weight: -20
 provider: null
