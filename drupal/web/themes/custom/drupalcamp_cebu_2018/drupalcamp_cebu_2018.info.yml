@@ -1,0 +1,12 @@
+name: drupalcamp_cebu_2018
+type: theme
+description: 'Defining classy theme for drupalcamp_cebu_2018.'
+core: 8.x
+libraries:
+ - drupalcamp_cebu_2018/global-styling
+base theme: classy
+regions:
+ header: Header
+ content: Content
+ sidebar_first: 'Sidebar first'
+ footer: Footer

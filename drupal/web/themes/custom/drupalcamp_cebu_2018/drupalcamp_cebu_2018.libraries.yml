@@ -1,0 +1,20 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+  js:
+    js/mobile-menu.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+
+google-fonts:
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans': { type: external, minified: true }
+
+font-awesome:
+  css:
+    theme:
+      '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css': { type: external, minified: true }
