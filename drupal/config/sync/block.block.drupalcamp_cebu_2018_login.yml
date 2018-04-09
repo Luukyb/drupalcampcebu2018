@@ -1,15 +1,15 @@
-uuid: 600fcee3-7f11-44f3-b155-5c90bc1ef2a1
+uuid: b2289f93-8092-472b-bcc5-36f12ffdd823
 langcode: en
 status: true
 dependencies:
   module:
     - user
   theme:
-    - stark
+    - drupalcamp_cebu_2018
 _core:
   default_config_hash: 4QlSnWBcxxKMIFRM8sbu_MjSkcp3NjGgnVrc-lynQHI
-id: stark_login
-theme: stark
+id: drupalcamp_cebu_2018_login
+theme: drupalcamp_cebu_2018
 region: sidebar_first
 weight: 0
 provider: null
