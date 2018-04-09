@@ -1,0 +1,14 @@
+uuid: e5636d35-8d8c-476b-8dd8-96fd854a7bbe
+name: 'Drupalcamp Cebu 2018'
+mail: luc@webizat.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

@@ -297,7 +297,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = '-LTEJyD1n65wAYAWeyPzebd_TUyzgQnMGakZHnw67gnZohg5_XZ13DEn7dHFB_R43nADaTSZEA';
 
 /**
  * Deployment identifier.
@@ -772,6 +772,7 @@ $settings['file_scan_ignore_directories'] = [
 $settings['entity_update_batch_size'] = 50;
 
 $config_directories['sync'] = '../config/sync';
+$settings['install_profile'] = 'minimal';
 
 /**
  * Load local development override configuration, if available.
