@@ -88,6 +88,14 @@ header {
         font-family: $text-font;
         float: right;
         padding-top: 17px;
+        li:last-child a {
+          border: 1px solid $secondary-color;
+          padding: 10px;
+          color: $secondary-color;
+        }
+        li:last-child a:hover {
+          color:  rgba(205, 133, 63, 0.8);
+        }
         li.list-inline-item {
           padding-right: 15px;
           button {
