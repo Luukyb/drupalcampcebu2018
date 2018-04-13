@@ -6513,16 +6513,16 @@ header .sitename-wrapper {
       background-color: rgba(205, 133, 63, 0.9); }
     header .sitename-wrapper .menu-wrapper a {
       color: #fff; }
+  header .sitename-wrapper #block-mainnavigation .ds-menu-wrapper li:last-child a {
+    border: 1px solid #cd853f;
+    padding: 10px;
+    color: #cd853f; }
+  header .sitename-wrapper #block-mainnavigation .ds-menu-wrapper li:last-child a:hover {
+    color: rgba(205, 133, 63, 0.8); }
   header .sitename-wrapper .ds-menu-wrapper ul.list-inline {
     font-family: Open Sans, sans-serif;
     float: right;
     padding-top: 17px; }
-    header .sitename-wrapper .ds-menu-wrapper ul.list-inline li:last-child a {
-      border: 1px solid #cd853f;
-      padding: 10px;
-      color: #cd853f; }
-    header .sitename-wrapper .ds-menu-wrapper ul.list-inline li:last-child a:hover {
-      color: rgba(205, 133, 63, 0.8); }
     header .sitename-wrapper .ds-menu-wrapper ul.list-inline li.list-inline-item {
       padding-right: 15px; }
       header .sitename-wrapper .ds-menu-wrapper ul.list-inline li.list-inline-item button {
