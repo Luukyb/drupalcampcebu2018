@@ -111,4 +111,4 @@ docker-compose run --rm php_nginx drush uli
 Right now, all the CSS from `themes/custom/drupalcamp_cebu_2018/css` is directly ***Symlinked*** into `static/css/`. When you modify the CSS, do it in the ***Sass*** folder found in `static/sass`.
 When first compiling ***Sass***, run `npm install` and `gulp` within the `static` folder. You may need to execute `gulp` from within `static` folder when you want to Sassify the CSS, or better yet, execute `gulp watch`.
 ## Migration
-Import a dump of the PSD7 site in a separate database and set the database key `$databases['migrate']['default']` in `settings.local.php`. Process the available migrations by invoking `drush mi --all`.
+Import a dump of the drupalcampcebu 2018 site in a separate database and set the database key `$databases['migrate']['default']` in `settings.local.php`. Process the available migrations by invoking `drush mi --all`.
