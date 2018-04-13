@@ -12,10 +12,10 @@ Clone Expresso PHP in ~/docker
 $ cd ~/docker
 $ git clone https://github.com/expresso-php/expresso-php.git drupalcampcebu2018
 ```
-### Set Expresso PHP to match PROD: Nginx with PHP 7.0
+### Set Expresso PHP to match PROD: Nginx with PHP 7.2.3
 To set this site to PHP 7.0, change the first line of the file "docker/php/Dockerfile".
 ```
-FROM php:7.0-fpm
+FROM php:7.2.3-fpm
 ```
 ## Setup Drupal
 Clone drupalcampcebu2018 inside Expresso PHP:
@@ -108,7 +108,7 @@ docker-compose run --rm php_nginx drush cr
 docker-compose run --rm php_nginx drush uli
 ```
 ### CSS Editing
-Right now, all the CSS from `themes/custom/drupalcamp_cebu_2018/css` is directly ***Symlinked*** into `static/public/css/`. When you modify the CSS, do it in the ***Sass*** folder found in `static/resources/sass`.
+Right now, all the CSS from `themes/custom/drupalcamp_cebu_2018/css` is directly ***Symlinked*** into `static/css/`. When you modify the CSS, do it in the ***Sass*** folder found in `static/sass`.
 When first compiling ***Sass***, run `npm install` and `gulp` within the `static` folder. You may need to execute `gulp` from within `static` folder when you want to Sassify the CSS, or better yet, execute `gulp watch`.
 ## Migration
 Import a dump of the PSD7 site in a separate database and set the database key `$databases['migrate']['default']` in `settings.local.php`. Process the available migrations by invoking `drush mi --all`.
