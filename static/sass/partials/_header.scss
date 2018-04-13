@@ -86,6 +86,7 @@ header {
     #block-mainnavigation .ds-menu-wrapper {
       li:last-child a {
         border: 1px solid $secondary-color;
+        border-radius: 5px;
         padding: 10px;
         color: $secondary-color;
       }

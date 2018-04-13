@@ -6515,6 +6515,7 @@ header .sitename-wrapper {
       color: #fff; }
   header .sitename-wrapper #block-mainnavigation .ds-menu-wrapper li:last-child a {
     border: 1px solid #cd853f;
+    border-radius: 5px;
     padding: 10px;
     color: #cd853f; }
   header .sitename-wrapper #block-mainnavigation .ds-menu-wrapper li:last-child a:hover {
