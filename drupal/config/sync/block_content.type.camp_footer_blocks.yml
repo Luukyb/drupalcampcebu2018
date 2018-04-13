@@ -1,0 +1,8 @@
+uuid: 85984516-a711-40d6-a3a1-2aba6354cee1
+langcode: en
+status: true
+dependencies: {  }
+id: camp_footer_blocks
+label: 'Camp Footer Blocks'
+revision: 0
+description: 'These are the blocks in the website''s footer region.'
