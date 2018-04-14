@@ -12,10 +12,10 @@ Clone Expresso PHP in ~/docker
 $ cd ~/docker
 $ git clone https://github.com/expresso-php/expresso-php.git drupalcampcebu2018
 ```
-### Set Expresso PHP to match PROD: Nginx with PHP 7.2.3
+### Set Expresso PHP to match PROD: Nginx with PHP 7.2
 To set this site to PHP 7.0, change the first line of the file "docker/php/Dockerfile".
 ```
-FROM php:7.2.3-fpm
+FROM php:7.2-fpm
 ```
 ## Setup Drupal
 Clone drupalcampcebu2018 inside Expresso PHP:
