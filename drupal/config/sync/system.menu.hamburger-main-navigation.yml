@@ -1,0 +1,8 @@
+uuid: fa838321-7de4-48f2-922b-982590be106e
+langcode: en
+status: true
+dependencies: {  }
+id: hamburger-main-navigation
+label: 'Hamburger Main Navigation'
+description: 'Site section link for small devices'
+locked: false
