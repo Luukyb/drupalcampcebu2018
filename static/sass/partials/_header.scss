@@ -83,6 +83,18 @@ header {
       }
     }
 
+    #block-hamburgermainnavigation .menu-wrapper {
+      li:last-child {
+        border-radius: 0;
+        width: 50%;
+        margin: auto;
+        margin-top: 40px;
+        padding-right: 30px;
+        padding-left: 30px;
+        background: $secondary-color;
+      }
+    } 
+
     #block-mainnavigation .ds-menu-wrapper {
       li:last-child a {
         border: 1px solid $secondary-color;
@@ -91,7 +103,7 @@ header {
         color: $secondary-color;
       }
       li:last-child a:hover {
-        color:  rgba(205, 133, 63, 0.8);
+        color: rgba(205, 133, 63, 0.8);
       }
     }
 

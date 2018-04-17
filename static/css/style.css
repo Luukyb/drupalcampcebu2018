@@ -6513,6 +6513,14 @@ header .sitename-wrapper {
       background-color: rgba(205, 133, 63, 0.9); }
     header .sitename-wrapper .menu-wrapper a {
       color: #fff; }
+  header .sitename-wrapper #block-hamburgermainnavigation .menu-wrapper li:last-child {
+    border-radius: 0;
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background: #cd853f; }
   header .sitename-wrapper #block-mainnavigation .ds-menu-wrapper li:last-child a {
     border: 1px solid #cd853f;
     border-radius: 5px;
