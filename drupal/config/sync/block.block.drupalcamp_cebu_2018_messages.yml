@@ -11,7 +11,7 @@ _core:
 id: drupalcamp_cebu_2018_messages
 theme: drupalcamp_cebu_2018
 region: header
-weight: 0
+weight: -1
 provider: null
 plugin: system_messages_block
 settings:
