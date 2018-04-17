@@ -9,7 +9,7 @@ _core:
 id: drupalcamp_cebu_2018_local_actions
 theme: drupalcamp_cebu_2018
 region: content
-weight: -10
+weight: -5
 provider: null
 plugin: local_actions_block
 settings:

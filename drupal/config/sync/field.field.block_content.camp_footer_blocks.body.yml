@@ -1,0 +1,22 @@
+uuid: 00f25eed-5dfa-48b9-9491-541cf10ba5a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.camp_footer_blocks
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.camp_footer_blocks.body
+field_name: body
+entity_type: block_content
+bundle: camp_footer_blocks
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary
