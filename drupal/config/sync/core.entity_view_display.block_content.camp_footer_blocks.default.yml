@@ -1,0 +1,22 @@
+uuid: 7b6c77ae-b71c-470a-a201-43f47595a67c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.camp_footer_blocks
+    - field.field.block_content.camp_footer_blocks.body
+  module:
+    - text
+id: block_content.camp_footer_blocks.default
+targetEntityType: block_content
+bundle: camp_footer_blocks
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
