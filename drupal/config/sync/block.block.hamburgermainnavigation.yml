@@ -1,0 +1,28 @@
+uuid: 876a9466-ea97-49c6-a64d-64f453a7566b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.hamburger-main-navigation
+  module:
+    - block_class
+    - system
+  theme:
+    - drupalcamp_cebu_2018
+third_party_settings:
+  block_class:
+    classes: 'mobile-menu col-2 col-sm-5 col-md-7 '
+id: hamburgermainnavigation
+theme: drupalcamp_cebu_2018
+region: header
+weight: -3
+provider: null
+plugin: 'system_menu_block:hamburger-main-navigation'
+settings:
+  id: 'system_menu_block:hamburger-main-navigation'
+  label: 'Hamburger Main Navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

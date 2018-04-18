@@ -1,0 +1,28 @@
+uuid: 7803e2d7-7a7e-4f6f-a60a-ac3cf4e474d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - block_class
+    - system
+  theme:
+    - drupalcamp_cebu_2018
+third_party_settings:
+  block_class:
+    classes: 'desktop-menu col-md-7'
+id: mainnavigation
+theme: drupalcamp_cebu_2018
+region: header
+weight: -2
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main Navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }
