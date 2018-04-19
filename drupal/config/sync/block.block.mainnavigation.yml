@@ -15,7 +15,7 @@ third_party_settings:
 id: mainnavigation
 theme: drupalcamp_cebu_2018
 region: header
-weight: -2
+weight: -4
 provider: null
 plugin: 'system_menu_block:main'
 settings:

@@ -20,12 +20,31 @@
 %}
 {% if content %}
   <div{{ attributes.addClass(classes) }}>
-   <div class="sitename-wrapper">
-     <div class="container">
+    <div class="sitename-wrapper">
+      <div class="container">
+        <div class="row">
+          {{ content }}
+        </div>  
+      </div> 
+    </div>
+    <div class="container">
       <div class="row">
-        {{ content }}
-      </div>  
-    </div> 
-   </div>
+        <div class="col-12 col-lg-6">
+          <div class="logo-wrapper">
+            <div class="logo"></div>
+          </div>
+        </div>
+        <div class="description col-lg-6">
+          <h1>Conference about Open Source</h1>
+          <p>The 5th edition of the Drupalcamp Cebu is in the making. We will plan exciting sessions and tasks about the Drupal, PHP, DevOPS, UX and more. To recieve the news about the event before everyone else, subscribe to our news letter below.</p>
+          <form>
+            <div class="form-wrapper col-12">
+              <input type="text" placeholder="Email address" class="input-text col-7">&emsp;
+              <button type="button" class="btn btn-primary col-4">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>   
   </div>
 {% endif %}
