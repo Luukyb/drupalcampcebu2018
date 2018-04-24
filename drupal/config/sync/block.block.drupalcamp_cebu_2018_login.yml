@@ -11,7 +11,7 @@ _core:
 id: drupalcamp_cebu_2018_login
 theme: drupalcamp_cebu_2018
 region: sidebar_first
-weight: -4
+weight: -3
 provider: null
 plugin: user_login_block
 settings:

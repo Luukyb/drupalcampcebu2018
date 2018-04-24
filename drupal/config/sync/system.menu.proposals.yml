@@ -1,0 +1,8 @@
+uuid: af70df67-ca50-42eb-a150-76dcffbe6754
+langcode: en
+status: true
+dependencies: {  }
+id: proposals
+label: Proposals
+description: 'List of proposals'
+locked: false
