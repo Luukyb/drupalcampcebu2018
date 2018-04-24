@@ -42,41 +42,45 @@
  * @see html.html.twig
  */
 #}
-<div class="layout-container">
 
-  <header role="banner">
-    {{ page.header }}
-  </header>
+  <div class="layout-container">
 
-  {{ page.primary_menu }}
-  {{ page.secondary_menu }}
+      <header role="banner">
+        {{ page.header }}
+      </header>
 
-  {{ page.breadcrumb }}
+      <div class="container">
+        <div class="row mx-5">
+          {{ page.primary_menu }}
+          {{ page.secondary_menu }}
 
-  {{ page.highlighted }}
+          {{ page.breadcrumb }}
 
-  {{ page.help }}
+          {{ page.highlighted }}
 
-  <main role="main">
-    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+          {{ page.help }}
 
-    <div class="layout-content">
-      {{ page.content }}
-    </div>{# /.layout-content #}
+          <main role="main">
+            <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
-    {% if page.sidebar_first %}
-      <aside class="layout-sidebar-first" role="complementary">
-        {{ page.sidebar_first }}
-      </aside>
-    {% endif %}
+            <div class="layout-content">
+              {{ page.content }}
+            </div>{# /.layout-content #}
 
-    {% if page.sidebar_second %}
-      <aside class="layout-sidebar-second" role="complementary">
-        {{ page.sidebar_second }}
-      </aside>
-    {% endif %}
+            {% if page.sidebar_first %}
+              <aside class="layout-sidebar-first" role="complementary">
+                {{ page.sidebar_first }}
+              </aside>
+            {% endif %}
 
-  </main>
+            {% if page.sidebar_second %}
+              <aside class="layout-sidebar-second" role="complementary">
+                {{ page.sidebar_second }}
+              </aside>
+            {% endif %}
+          </main>
+        </div>
+      </div>
 
   {% if page.footer %}
     <footer role="contentinfo">
@@ -129,4 +133,4 @@
   </div>
 </div>
 
-</div>{# /.layout-container #}
+    </div>{# /.layout-container #}
