@@ -10,7 +10,7 @@ id: session_proposals
 title: 'Session Proposals'
 description: ''
 category: ''
-elements: "personal_details:\n  '#type': webform_wizard_page\n  '#title': 'Personal Details'\n  this_information_will_be_used_only_for_the_purpose_of_drupalcamp:\n    '#type': label\n    '#title': 'This information will be used only for the purpose of Drupalcamp Cebu, and will not be shared to third party or sponsors.'\n  first_name:\n    '#type': textfield\n    '#title': 'First name'\n    '#required': true\n  last_name:\n    '#type': textfield\n    '#title': 'Last name'\n    '#required': true\n  email:\n    '#type': email\n    '#title': Email\n    '#required': true\n  job:\n    '#type': textfield\n    '#title': Job\n    '#required': true\n  company:\n    '#type': textfield\n    '#title': Company\n    '#required': true\n  country:\n    '#type': textfield\n    '#title': Country\n    '#required': true\nproposal_details:\n  '#type': webform_wizard_page\n  '#title': 'Proposal Details'\n  your_proposal_will_be_reviewed_by_the_organization_team_of_drupa:\n    '#type': label\n    '#title': 'Your proposal will be reviewed by the organization team of Drupalcamp Cebu. If selected, we will contact you.'\n  session_title:\n    '#type': textfield\n    '#title': 'Session Title'\n    '#required': true\n  session_description:\n    '#type': textarea\n    '#title': 'Session Description'\n    '#required': true\n  url_of_slides:\n    '#type': url\n    '#title': 'URL of Slides'\nspeaker_dinner:\n  '#type': webform_wizard_page\n  '#title': 'Speaker dinner'\n  i_will_attend_the_speaker_dinner_one_day_before_drupalcamp_cebu_:\n    '#type': checkbox\n    '#title': 'I will attend the speaker dinner, one day before Drupalcamp Cebu.'\n"
+elements: "personal_details:\n  '#type': webform_wizard_page\n  '#title': 'Personal Details'\n  this_information_will_be_used_only_for_the_purpose_of_drupalcamp:\n    '#type': label\n    '#title': 'This information will be used only for the purpose of Drupalcamp Cebu, and will not be shared to third party or sponsors.'\n  first_name:\n    '#type': textfield\n    '#title': 'First name'\n    '#required': true\n  last_name:\n    '#type': textfield\n    '#title': 'Last name'\n    '#required': true\n  email:\n    '#type': email\n    '#title': Email\n    '#required': true\n  job:\n    '#type': textfield\n    '#title': Job\n    '#required': true\n  company:\n    '#type': textfield\n    '#title': Company\n    '#required': true\n  country:\n    '#type': textfield\n    '#title': Country\n    '#required': true\nproposal_details:\n  '#type': webform_wizard_page\n  '#title': 'Proposal Details'\n  your_proposal_will_be_reviewed_by_the_organization_team_of_drupa:\n    '#type': label\n    '#title': 'Your proposal will be reviewed by the organization team of Drupalcamp Cebu. If selected, we will contact you.'\n  session_title:\n    '#type': textfield\n    '#title': 'Session Title'\n    '#required': true\n  session_description:\n    '#type': textarea\n    '#title': 'Session Description'\n    '#required': true\n  url_of_slides:\n    '#type': url\n    '#title': 'URL of Slides'\nspeaker_dinner:\n  '#type': webform_wizard_page\n  '#title': 'Speaker dinner'\n  i_will_attend_the_speaker_dinner_one_day_before_drupalcamp_cebu_:\n    '#type': checkbox\n    '#title': 'I will attend the speaker dinner, one day before Drupalcamp Cebu.'\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__attributes':\n    class:\n      - submit-btn\n  '#wizard_prev__label': 'Previous Page'\n  '#wizard_prev__attributes':\n    class:\n      - previous-btn\n  '#wizard_next__label': 'Next Page'\n  '#wizard_next__attributes':\n    class:\n      - next-btn\n"
 css: ''
 javascript: ''
 settings:
@@ -75,9 +75,9 @@ settings:
   confirmation_type: page
   confirmation_title: 'Session proposal submission complete'
   confirmation_message: 'Thank you [webform_submission:values:first_name], for submitting a session proposal!'
-  confirmation_url: ''
+  confirmation_url: /proposals
   confirmation_attributes: {  }
-  confirmation_back: true
+  confirmation_back: false
   confirmation_back_label: ''
   confirmation_back_attributes: {  }
   confirmation_exclude_query: false
@@ -105,7 +105,9 @@ access:
     users: {  }
     permissions: {  }
   view_any:
-    roles: {  }
+    roles:
+      - anonymous
+      - authenticated
     users: {  }
     permissions: {  }
   update_any:
