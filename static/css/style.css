@@ -6370,7 +6370,8 @@ form {
 
 #edit-actions .next-btn {
   background: #cd853f;
-  padding: 6px 25px;
+  padding: 8px;
+  border-style: unset;
   width: 100%;
   margin-bottom: 50px;
   margin-top: 25px;
@@ -6381,7 +6382,8 @@ form {
 
 #edit-actions .previous-btn {
   background: #cd853f;
-  padding: 6px 25px;
+  padding: 8px;
+  border-style: unset;
   width: 100%;
   margin-top: 25px;
   color: #fff; }
@@ -6391,7 +6393,8 @@ form {
 
 #edit-actions .submit-btn {
   background: #cd853f;
-  padding: 6px 25px;
+  padding: 8px;
+  border-style: unset;
   margin-bottom: 50px;
   width: 100%;
   margin-top: 25px;
@@ -6468,8 +6471,7 @@ form {
   .view-proposals .views-row {
     width: 46%; }
   #edit-actions .next-btn {
-    width: 20%;
-    text-align: center; }
+    width: 20%; }
   #edit-actions .previous-btn {
     width: 20%; }
   #edit-actions .submit-btn {

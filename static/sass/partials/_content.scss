@@ -58,7 +58,8 @@
 #edit-actions {
   .next-btn {
     background: $secondary-color;
-    padding: 6px 25px;
+    padding: 8px;
+    border-style: unset;
     width: 100%;
     margin-bottom: 50px;
     margin-top: 25px; 
@@ -69,7 +70,8 @@
   }
   .previous-btn {
     background: $secondary-color;
-    padding: 6px 25px;
+    padding: 8px;
+    border-style: unset;
     width: 100%;
     margin-top: 25px; 
     color: $primary-bg;  
@@ -79,7 +81,8 @@
   }
   .submit-btn {
     background: $secondary-color;
-    padding: 6px 25px;
+    padding: 8px;
+    border-style: unset;
     margin-bottom: 50px;
     width: 100%;
     margin-top: 25px;  
@@ -185,7 +188,6 @@
  #edit-actions {
     .next-btn {
       width: 20%;
-      text-align: center;
     }
     .previous-btn {
       width: 20%;
