@@ -9,7 +9,7 @@ _core:
 id: drupalcamp_cebu_2018_page_title
 theme: drupalcamp_cebu_2018
 region: content
-weight: -7
+weight: -5
 provider: null
 plugin: page_title_block
 settings:
