@@ -6805,13 +6805,24 @@ header .description {
 
 @media (max-width: 992px) {
   header .sitename-wrapper .menu-wrapper ul.list-group .register {
-    border-bottom: 0; }
-    header .sitename-wrapper .menu-wrapper ul.list-group .register button {
+    border-bottom: 0;
+    margin-top: 30px; }
+    header .sitename-wrapper .menu-wrapper ul.list-group .register div.button-link {
       border-bottom: none;
       background-color: #cd853f;
       color: #fff;
       border: 1px solid #cd853f;
-      margin-top: 40px;
-      margin-top: 40px;
+      margin: 0 auto;
       padding: 12px 57px;
       width: 50%; } }
+
+header .sitename-wrapper .ds-menu-wrapper ul.list-inline .register div.button-link {
+  border: 1px solid #cd853f;
+  padding: 15px; }
+  header .sitename-wrapper .ds-menu-wrapper ul.list-inline .register div.button-link a {
+    color: #cd853f; }
+
+header .sitename-wrapper .ds-menu-wrapper ul.list-inline .register div.button-link:hover {
+  background-color: #cd853f; }
+  header .sitename-wrapper .ds-menu-wrapper ul.list-inline .register div.button-link:hover a {
+    color: #fff; }
