@@ -1,2 +1,3 @@
 # Ignore configuration files in node_modules
 static/node_modules
+docs/node_modules/
