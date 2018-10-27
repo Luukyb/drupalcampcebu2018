@@ -1,0 +1,15 @@
+@media (max-width: 992px) {
+  header .sitename-wrapper .menu-wrapper ul.list-group .register {
+    border-bottom: 0;
+    button {
+      border-bottom: none;
+      background-color: $secondary-color;
+      color: $primary-bg;
+      border: 1px solid $secondary-color;
+      margin-top: 40px;
+      margin-top: 40px;
+      padding: 12px 57px;
+      width: 50%;
+    }
+  }
+}
