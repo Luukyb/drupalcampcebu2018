@@ -1,47 +1,29 @@
 .content {
   padding-top: 40px;
-}
-.content-wrapper {
-  background-color: $secondary-bg;
-  .sponsor-region {
-    h2 {
-      text-align: center;
-      margin: 50px;
-      margin-bottom: 15px;
+  margin-bottom: 40px;
+
+  h2 {
+    font-weight: bolder;
+    margin: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .speakers {
+    text-align: center;
+
+    img {
+      margin-bottom: 20px;
+    }
+
+    .name {
+      font-family: $title-font;
       font-weight: bolder;
     }
 
     p {
       text-align: center;
-    }
-
-    .sponsor-btn {
-      text-align: center;
-      margin: 50px auto;
-      .btn {
-        text-transform: uppercase;
-        color: $secondary-color;
-        border: 1px solid $secondary-color;
-        font-weight: bolder;
-        a {
-        color: $secondary-color;
-        }
-        a:hover {
-        color: rgba(205, 133, 63, 0.8);
-        }
-      }
-      button:hover {
-        background-color: transparent;
-      }
-    }
-
-    h4 {
-      text-align: center;
-    }
-
-    .sponsors-image {
-      text-align: center;
-      margin-bottom: 50px;
+      margin-bottom: 40px;
     }
   }
 }
@@ -49,7 +31,7 @@
 .view-footer a.submit-proposal-btn {
   background: $secondary-color;
   padding: 8px;
-  color: $primary-bg;      
+  color: $primary-bg;
 }
 .view-footer a.submit-proposal-btn:hover {
   background-color: rgba(205, 133, 63, 0.9);
@@ -62,8 +44,8 @@
     border-style: unset;
     width: 100%;
     margin-bottom: 50px;
-    margin-top: 25px; 
-    color: $primary-bg;  
+    margin-top: 25px;
+    color: $primary-bg;
   }
   .next-btn:hover {
     background-color: rgba(205, 133, 63, 0.9);
@@ -73,8 +55,8 @@
     padding: 8px;
     border-style: unset;
     width: 100%;
-    margin-top: 25px; 
-    color: $primary-bg;  
+    margin-top: 25px;
+    color: $primary-bg;
   }
   .previous-btn:hover {
     background-color: rgba(205, 133, 63, 0.9);
@@ -85,8 +67,8 @@
     border-style: unset;
     margin-bottom: 50px;
     width: 100%;
-    margin-top: 25px;  
-    color: $primary-bg;  
+    margin-top: 25px;
+    color: $primary-bg;
   }
   .submit-btn:hover{
     background-color: rgba(205, 133, 63, 0.9);
@@ -111,7 +93,7 @@
   margin-bottom: 20px;
   margin-left: 2%;
   margin-right: 2%;
-} 
+}
 
 .form-item-email .form-email {
   margin-top: unset;
@@ -122,7 +104,7 @@
 .form-item-url-of-slides .form-url {
   margin-top: unset;
   display: block;
-  margin-top: 0.25rem; 
+  margin-top: 0.25rem;
 }
 
 .webform-confirmation  {
@@ -132,14 +114,14 @@
     font-size: 20px;
     padding-top: 50px;
   }
-  
+
   .see-all-proposal-btn {
     padding-top: 40px;
     margin-bottom: 40px;
     a {
       background: $secondary-color;
       padding: 16px 40px;
-      color: $primary-bg;  
+      color: $primary-bg;
     }
     a:hover {
       background-color: rgba(205, 133, 63, 0.9);
@@ -149,15 +131,15 @@
 
 #webform-submission-session-proposals-add-form {
   .form-text {
-    width: 100%; 
+    width: 100%;
   }
 
   .form-email {
-    width: 100%; 
+    width: 100%;
   }
 
   .form-url {
-    width: 100%; 
+    width: 100%;
   }
 
   .button {
@@ -195,6 +177,6 @@
     .submit-btn {
       width: 20%;
     }
-  }  
+  }
 }
 

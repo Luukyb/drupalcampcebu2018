@@ -6312,6 +6312,9 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+html {
+  scroll-behavior: smooth; }
+
 h1, h2, h3, h4, h5 {
   font-family: Merriweather, serif; }
 
@@ -6374,36 +6377,23 @@ form {
     padding: 14px; } }
 
 .content {
-  padding-top: 40px; }
-
-.content-wrapper {
-  background-color: #ebebeb; }
-  .content-wrapper .sponsor-region h2 {
-    text-align: center;
+  padding-top: 40px;
+  margin-bottom: 40px; }
+  .content h2 {
+    font-weight: bolder;
     margin: 50px;
     margin-bottom: 15px;
-    font-weight: bolder; }
-  .content-wrapper .sponsor-region p {
     text-align: center; }
-  .content-wrapper .sponsor-region .sponsor-btn {
-    text-align: center;
-    margin: 50px auto; }
-    .content-wrapper .sponsor-region .sponsor-btn .btn {
-      text-transform: uppercase;
-      color: #cd853f;
-      border: 1px solid #cd853f;
+  .content .speakers {
+    text-align: center; }
+    .content .speakers img {
+      margin-bottom: 20px; }
+    .content .speakers .name {
+      font-family: Merriweather, serif;
       font-weight: bolder; }
-      .content-wrapper .sponsor-region .sponsor-btn .btn a {
-        color: #cd853f; }
-      .content-wrapper .sponsor-region .sponsor-btn .btn a:hover {
-        color: rgba(205, 133, 63, 0.8); }
-    .content-wrapper .sponsor-region .sponsor-btn button:hover {
-      background-color: transparent; }
-  .content-wrapper .sponsor-region h4 {
-    text-align: center; }
-  .content-wrapper .sponsor-region .sponsors-image {
-    text-align: center;
-    margin-bottom: 50px; }
+    .content .speakers p {
+      text-align: center;
+      margin-bottom: 40px; }
 
 .view-footer a.submit-proposal-btn {
   background: #cd853f;
@@ -6521,6 +6511,37 @@ form {
     width: 20%; }
   #edit-actions .submit-btn {
     width: 20%; } }
+
+.sponsors {
+  background-color: #ebebeb;
+  padding-bottom: 40px; }
+  .sponsors .sponsor-region h2 {
+    font-weight: bolder;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    text-align: center; }
+  .sponsors .sponsor-region p {
+    text-align: center; }
+  .sponsors .sponsor-region .sponsor-btn {
+    margin: 50px auto;
+    text-align: center; }
+    .sponsors .sponsor-region .sponsor-btn .btn {
+      color: #cd853f;
+      border: 1px solid #cd853f;
+      font-weight: bolder;
+      text-transform: uppercase; }
+      .sponsors .sponsor-region .sponsor-btn .btn a {
+        color: #cd853f; }
+      .sponsors .sponsor-region .sponsor-btn .btn a:hover {
+        color: rgba(205, 133, 63, 0.8); }
+    .sponsors .sponsor-region .sponsor-btn button:hover {
+      background-color: transparent; }
+  .sponsors .sponsor-region h4 {
+    margin-top: 30px;
+    text-align: center; }
+  .sponsors .sponsor-region .sponsors-image {
+    text-align: center;
+    margin-bottom: 50px; }
 
 .footer-top {
   background: #51a3d6;
